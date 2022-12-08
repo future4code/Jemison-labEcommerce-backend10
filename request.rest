@@ -18,7 +18,23 @@ POST http://localhost:3003/products
 Content-Type: application/json
 
 {
-    "name" : "Maserati",
-    "price" : 100000000,
-    "image_url" : "https://image1.mobiauto.com.br/images/api/images/v1.0/43157426/transform/"
+    "name" : "GS1250",
+    "price" : 110000,
+    "image_url" : "https://cdn.motor1.com/images/mgl/38wX6/s1/4x3/bmw-r-1250-gs.webp"
+}
+
+###
+
+GET http://localhost:3003/products
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+    "user_id" : "0.435787392683314",
+    "product_id" : "0.9592330036854957",
+    "quantity" : 5
 }
