@@ -38,3 +38,12 @@ Content-Type: application/json
     "product_id" : "0.9592330036854957",
     "quantity" : 5
 }
+
+###
+
+GET http://localhost:3003/users/:user_id/purchases
+Content-Type: application/json
+
+{
+"user_id" : "0.435787392683314"
+}
